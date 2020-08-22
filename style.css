@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet');
+
+body{
+	background: linear-gradient(112.73deg , #C31432 -3.64%,#240B36 104.34%);
+}
+.s-catch-her{
+	background: linear-gradient(112.73deg , #C31432 -3.64%,#240B36 104.34%);
+	border-radius: 8px;
+	max-width: max-content;
+	font-weight: 100;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition:1s ease;
+
+}
+.s-catch-mine{
+	background: linear-gradient(112.73deg , #C31432 -3.64%,#240B36 104.34%);
+	border-radius: 8px;
+	max-width: max-content;
+	font-weight: 100;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transition:250ms ease;
+
+}
+.s-catch-her:hover{
+	transform:scale(1.1);
+}
+
+.s-catch-her  p{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 24px 32px;
+}
+.s-catch-mine  p{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 24px 32px;
+}
